@@ -1,0 +1,17 @@
+ inteiro contador = 1
+    inteiro numero, maior = 0
+
+    enquanto (contador <= 5) {
+      escreva("Digite o ", contador, "º número: ")
+      leia(numero)
+
+      
+      
+      se (contador == 1 ou numero > maior) {
+        maior = numero
+      }
+
+      contador++ 
+    }
+
+    escreva("\nO maior valor informado foi: ", maior)
