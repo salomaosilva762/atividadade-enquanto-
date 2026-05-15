@@ -1,0 +1,15 @@
+inteiro contador = 1
+		inteiro numero
+		inteiro soma = 0
+
+		
+		enquanto (contador <= 5)
+		{
+			escreva("Digite o ", contador, "º número inteiro: ")
+			leia(numero)
+			
+			soma = soma + numero 
+			contador++
+		}
+
+		escreva("\nA soma dos 5 números é: ", soma)
