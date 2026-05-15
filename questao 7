@@ -1,0 +1,15 @@
+inteiro numero = 1
+		inteiro soma = 0
+
+		 
+		enquanto (numero != 0)
+		{
+			escreva("Digite um número inteiro (ou 0 para sair): ")
+			leia(numero)
+
+			
+			soma = soma + numero
+		}
+
+		
+		escreva("A soma total dos números digitados é: ", soma, "\n")
