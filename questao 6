@@ -1,0 +1,9 @@
+inteiro numero, contador = 1
+
+    escreva("Digite um número para ver a tabuada: ")
+    leia(numero)
+
+    enquanto (contador <= 10) {
+      escreva(numero, " x ", contador, " = ", numero * contador, "\n")
+      contador = contador + 1
+    }
