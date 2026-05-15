@@ -1,0 +1,18 @@
+contador = 1
+    quant_pares = 0
+
+    
+    enquanto (contador <= 10) {
+      escreva("Digite o ", contador, "º número: ")
+      leia(numero)
+
+      
+      se (numero % 2 == 0) {
+        quant_pares = quant_pares + 1
+      }
+
+      
+      contador = contador + 1
+    }
+
+    escreva("\nQuantidade de números pares digitados: ", quant_pares)
